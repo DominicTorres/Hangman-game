@@ -5,13 +5,33 @@ window.onload = function() {
 
     var categories;
     var guess;
-    var storedGuesses;
+    var storedGuesses = [ ];
     var word;
     var lives;
     var space;
     var counter;
     var chosenCategories;
-    
-    
+    var getHint;
+
+    var showLives = document.getElementById("mylives");
+    var showClue = document.getElementById("clue");
+    var getHint = document.getElementById("hint");
+    var showCategory = document.getElementById("scategory");
+
+    var buttons = function() {
+        myButton = document.getElementById('buttons');
+        letters = document.createElement('ul');
+
+        for (var i = 0; i < alphabet.length; i++) {
+            letter.id = 'alphabet';
+            list = document.createElement('li');
+            list.id = 'letter';
+            list.innerHTML = alphabet[i];
+            check();
+            myButtons =document.getElementById()
+        }
+    }
+
+
 
 }
